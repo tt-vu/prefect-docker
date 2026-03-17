@@ -1,0 +1,5 @@
+deployments:
+  - name: my-deployment
+    entrypoint: flows/flow_download_era5.py:download_era5
+    work_pool:
+      name: vm-pool
